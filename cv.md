@@ -12,3 +12,19 @@ Live and study at Minsk. Intresting networks and somes designs.
 Was work at polygraphy's, with cards, banners and etc., at some point it got boring and i'm start looking by the web design, frontend.
 
 Recently, I began to read books on neuropsychology ... makes it clear the general structure of a person
+
+## Hard-skills
+
+ + HTML, CSS
+ + Photoshop, basic( Illustrator, Indesign, Figma )
+ + basic scripting (bash, js)
+
+## Soft-skills
+
++ Non coflict
+
+## English
+
+*A1+*
+
+
