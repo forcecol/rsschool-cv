@@ -27,4 +27,15 @@ Recently, I began to read books on neuropsychology ... makes it clear the genera
 
 *A1+*
 
+## Code snippet
 
+```
+		for (var i = 0; i < iterations; i++) {
+			point = pointList.first;
+			while (point.next != null) {
+				nextPoint = point.next;
+```
+
+### Work experience
+
+Not yet. Educational projects.
