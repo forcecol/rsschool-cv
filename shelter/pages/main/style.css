@@ -1,0 +1,325 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+body{
+    width: 100vw;
+    width: 1280px;  
+ }
+
+a {
+    color: #CDCDCD;
+    cursor: url(../../assets/icons/active-cursor.svg), default;
+    text-decoration: none;
+}
+h1 a {
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 35.2px;
+    color: #F1CDB3;
+}
+h2{
+    color: white;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    max-width: 350px;
+
+    letter-spacing: 0.06em;
+    
+}
+h3{
+
+    width: 370px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+header{
+
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+ .menu{
+    margin-left: calc((100vw/1.9013));
+    padding-top: 69.1px ;
+    padding-left: 10px;
+ }    
+
+.ul-menu{
+    display: block;
+    padding-top: 10px;
+
+}
+
+.menu-item{
+    display: inline-block;
+    list-style: none;
+    margin-left: calc(100vw/46.99);
+    
+}
+.menu-item>a{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+.logo-type{
+    
+    display:block;
+    position: absolute;
+    width: 187px ;
+    height: 60px ;
+    margin: 60px 40px;
+}
+.logo{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.logo-subtitle{
+    margin-top: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.1em;
+
+}
+
+/* Start-screen*/
+.Start-screen {
+    display: flex;
+    background: url(../../assets/images/noise_transparent@2X.svg), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) , #211F20 !important ;
+    background-color: #222;
+    width: 100vw;
+
+}
+.Start-screen > img{
+    /* margin-left: calc(100vw/2.35); */
+    margin-top: 186px;
+    margin-left: 45px;
+
+}
+
+.container-content-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.Content-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 343px;
+    margin-left: 110px;
+}
+
+.Content-heading>p{
+    width: 460px;
+    height: 72px;
+    left: calc(50% - 460px/2);
+    bottom: 94px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-top: 42px;
+    color: #CDCDCD;
+}
+.Content-heading>h2{
+    color: white;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    max-width: 350px;
+
+    letter-spacing: 0.006em;
+
+}
+.button{
+    background: #F1CDB3;;
+    border: 50px #211F20;
+    padding: 15px 45px;
+    border-radius: 100px;
+    width: 119px;
+    margin-top: 40px;
+}
+.button>p{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
+/* about */
+.About{
+    margin-left: 6%;
+    height: 510px;
+    padding-top: 72px ;
+    padding-left: 210px;
+}
+.About>img{
+    
+}
+.About-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.Content{
+    width: 430px;
+    padding-left: 12%;
+    padding-top: 1.3%;
+
+}
+.Content>h3{
+    margin-bottom: 6%;
+}
+.Content>p{
+    margin-bottom: 7%;
+}
+
+.Our-Friends{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 877px; */
+    background: #F6F6F6;
+    width: 100vw;
+    padding-top: 5.7%;
+    text-align: center;
+
+}
+.h3{
+    padding-left: 35.5%;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-arrow{
+    border: 2px solid #F1CDB3;
+    border-radius: 100%;
+    width: 52px;
+    height: 52px;
+    
+
+
+}
+
+.button-arrow.left{
+
+    background-image: url(../../assets/icons/Arrow_LEFT.svg) ;
+    background-size: 32% 100% ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: 250px;
+    margin-left: 110px;
+}
+.button-arrow.right{
+
+    background-image: url(../../assets/icons/Arrow_RIGHT.svg) ;
+    background-size: 32% 100% ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: 250px;
+    margin-right:125px;
+}
+
+.slider-our-friends{
+    display: flex;
+    /* flex-direction: row; */
+    /* width:1200px;
+    height: 435px; */
+    padding-left: 55px;
+    margin-top: 55px;
+}
+.cards{
+    margin: auto;
+    width: 270px;
+    padding-right: 75px;
+}
+.cards>p{
+    padding-top: 30px;
+    text-align: center;
+    color:#545454;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+.button-cards{
+    background: #F1CDB3;
+    border: 50px #F1CDB3;;
+    padding: 15px 45px;
+    margin: auto;
+    border-radius: 100px;
+    width: 119px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.button-primary{
+    background: #F1CDB3;
+    border: 50px #F1CDB3;;
+    width: 261px;
+    height: 62px;
+    margin: 60px auto;
+    border-radius: 100px;
+
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
